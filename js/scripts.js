@@ -16,6 +16,6 @@ $(document).ready(function(){
     });
     
     $("#reserveButton").click(function(){
-        $("#asdModal").modal('show');
+        $("#reserveModal").modal();
     });
 });
